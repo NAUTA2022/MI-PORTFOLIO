@@ -29,6 +29,28 @@
   display: none;
 }
 
+.textoscroll {
+  color: #ffffff50;
+  text-align: center;
+  margin-top: 3rem;
+}
+.textoscroll {
+  animation-duration: 5s;
+  animation-name: textoscroll;
+}
+
+@keyframes textoscroll {
+  from {
+  transform: rotate3d(0, 1, 0, -90deg);
+  opacity: 0%;
+  }
+
+  to {
+  opacity: 100%;
+  transform: rotate3d(0, 1, 0, 0deg);
+  }
+}
+
 @media all and (max-width: 1300px) { 
 .burguer {
 display: flex;

@@ -44,7 +44,7 @@ text-decoration: none;
 .burguer-contenido {
   overflow: hidden;
   height: 0;
-  transition: height 0.5s;
+  transition: height 0.1s;
   opacity: 0%;
   font-size: 1.5rem;
  

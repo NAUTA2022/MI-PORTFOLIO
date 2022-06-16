@@ -34,7 +34,7 @@ display: none;
 .acordeon-contenido {
   overflow: hidden;
   height: 0;
-  transition: height 0.5s;
+  transition: height 0.2s;
   opacity: 0%;
  
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import Style from "./form.css";
-import { FaInstagram, FaWhatsapp, FaGithub, FaAt, FaLinkedinIn, FaFacebook} from 'react-icons/fa';
 
 
 const Form = () => {

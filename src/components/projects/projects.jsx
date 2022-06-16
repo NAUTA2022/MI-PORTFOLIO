@@ -1,12 +1,12 @@
 import React from 'react';
 import Style from "./projects.css";
-
+import {FaArrowDown} from 'react-icons/fa';
 
 const Projects = () => {
 	return (
 <div class="project" id="a2">
 <div class="arroww">
-<p>🡳</p> 
+<p><FaArrowDown /></p> 
 </div>
 <div class="titulito">
 <h1>Projects</h1>

@@ -1,12 +1,12 @@
 import React from 'react';
 import Style from "./hero.css";
-
+import {FaArrowDown} from 'react-icons/fa';
 
 const Hero = () => {
 	return (
 <div class="about" id="a1">
 <div class="arrow">
-<p>🡳</p> 
+<p><FaArrowDown /></p> 
 </div>
 <div class="tituli">
 <h1>About</h1>

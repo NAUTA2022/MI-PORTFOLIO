@@ -27,6 +27,10 @@ function App() {
        <Target/>
        </div>
 
+       <div class="textoscroll">
+       <p>Scroll for more or use the navigation bar</p>
+       </div>
+
        <div className="ACO">
        <Acordeon/>
        </div>

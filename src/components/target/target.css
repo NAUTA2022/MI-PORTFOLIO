@@ -88,9 +88,10 @@ height: 5vw;
 @media all and (max-width: 1300px) { 
 
 .tarjeta {
-	width: 70%;
+	width: 80%;
 	padding-top: 20px;
 	margin-top: 12rem;
+	border-radius: 10px;
 }
 
 .img {
