@@ -9,9 +9,9 @@ const Burguer = () => {
 	     <div class="burguer-item">
 	         <input type="checkbox" name="burguer" id="itemH"/>
 	         <div class="burguer-style">
-	         <label for="itemH" class="burguer-titulo"><p class="te"><b>☰</b></p><p class="loguito">💼</p></label>
+	         <label for="itemH" class="burguer-titulo"><p class="te"><b>☰</b></p><p class="loguito"><a href="#">💼</a></p></label>
 	         </div>
-	         <p class="burguer-contenido"><a href="#">About</a><br/><br/><a href="#">Projects</a><br/><br/><a href="#">Contact</a></p>
+	         <p class="burguer-contenido"><a href="#a1">About</a><br/><br/><a href="#a2">Projects</a><br/><br/><a href="#a3">Contact</a></p>
 	     </div>
 
 	</div>

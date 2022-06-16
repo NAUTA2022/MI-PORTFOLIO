@@ -4,7 +4,7 @@ import Style from "./hero.css";
 
 const Hero = () => {
 	return (
-<div class="about">
+<div class="about" id="a1">
 <div class="arrow">
 <p>🡳</p> 
 </div>

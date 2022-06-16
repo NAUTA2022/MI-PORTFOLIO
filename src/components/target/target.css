@@ -4,7 +4,6 @@
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(9.4px);
     -webkit-backdrop-filter: blur(9.4px);
-    border: 0px solid rgba(104, 255, 249, 0.3);
 
 	width: 40%;
 	padding: 30px;
@@ -89,34 +88,34 @@ height: 5vw;
 @media all and (max-width: 1300px) { 
 
 .tarjeta {
-	width: 50%;
-	padding: 60px;
+	width: 70%;
+	padding-top: 20px;
 	margin-top: 12rem;
 }
 
 .img {
-width: 15vw;
-height: 15vw;
+width: 16vw;
+height: 16vw;
 }
 
 .code {
-width: 15vw;
-height: 8vw;
+width: 8rem;
+height: 9vw;
 }
 .titulo {
-	font-size: 4vw;
+	font-size: 1.2rem;
 	
 }
 
 .subtitulo {
-	font-size: 2.5vw;
+	font-size: 1rem;
 	color: #00000095
 }
 
 .link {
 	color: black;
 	text-decoration-line: none;
-	font-size: 2vw;
+	font-size: 1rem;
 }
 
 .link:hover {

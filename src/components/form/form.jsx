@@ -5,7 +5,7 @@ import { FaInstagram, FaWhatsapp, FaGithub, FaAt, FaLinkedinIn, FaFacebook} from
 
 const Form = () => {
 	return (
-<div class="formu">
+<div class="formu" id="a3">
     <form class="form" action="https://formspree.io/f/xgedqbzk" method="POST">
       <div class="form__container">
         <h2 class="form__title">Contact me</h2>

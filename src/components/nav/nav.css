@@ -44,6 +44,9 @@
 	font-size: 3rem;
 	cursor: pointer;
 }
+.logo a{
+text-decoration: none;
+}
 .logo::before {
 	content: "";
 	height: 2px;

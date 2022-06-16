@@ -4,7 +4,7 @@ import Style from "./projects.css";
 
 const Projects = () => {
 	return (
-<div class="about">
+<div class="project" id="a2">
 <div class="arroww">
 <p>🡳</p> 
 </div>
