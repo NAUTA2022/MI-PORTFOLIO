@@ -11,7 +11,7 @@ import Form from "./components/form/form";
 function App() {
   return (
     <div className="App">
-      
+      <div class="todo">
 
        <div className="burguer">
        <Burguer/>
@@ -42,11 +42,9 @@ function App() {
        <Doors/>
        </div>
        
-       <div className="Formulario">
-       <Form/>
-       </div>
 
-      
+
+      </div>
     </div>
   );
 }

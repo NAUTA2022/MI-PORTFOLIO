@@ -8,11 +8,8 @@
 }
 
 .form {
-	width: 90%;
-	max-width: 400px;
+	width: 100%;
 	border-radius: 1em;
-	
-	
 }
 
 .form__container {
@@ -133,14 +130,8 @@
 .formu {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	margin: auto;
-	padding-top: 10rem;
-}
-
-.form {
 	width: 100vw;
-	max-width: 80vw;	
+	padding-top: 10rem;
 }
 
 .form__input {
@@ -163,7 +154,8 @@
 
 .redesx a{
 color: white;
-margin-right: 30px;
+margin-right: 15px;
+margin-left: 15px;
 font-size: 1.3rem;
 }
 
