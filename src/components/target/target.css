@@ -1,0 +1,127 @@
+.tarjeta {
+	  background: rgba(104, 255, 249, 0.1);
+    border-radius: 40px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(9.4px);
+    -webkit-backdrop-filter: blur(9.4px);
+    border: 0px solid rgba(104, 255, 249, 0.3);
+
+	width: 40%;
+	padding: 30px;
+	margin-top: 12rem;
+	color: #000000;
+	transition: all 1s ease;
+}
+
+.tarjeta:hover {
+	transform: rotate3d(0, 0, 1, 2deg);
+	transition: all 1s;
+
+}
+
+.tarjetita {
+  animation-duration: 5s;
+  animation-name: tarjetita;
+}
+
+@keyframes tarjetita {
+  from {
+  transform: rotate3d(0, 1, 0, -90deg);
+  opacity: 0%;
+  }
+
+  to {
+  opacity: 100%;
+  transform: rotate3d(0, 1, 0, 0deg);
+  }
+}
+
+.cabeza {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	list-style: none;
+}
+
+.end {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	list-style: none;
+}
+
+
+.img {
+width: 10vw;
+height: 10vw;
+}
+
+.code {
+width: 8vw;
+height: 5vw;
+}
+.titulo {
+	font-size: 2vw;
+	
+}
+
+.subtitulo {
+	font-size: 1.6vw;
+	color: #00000095
+}
+
+.link {
+	color: black;
+	text-decoration-line: none;
+}
+
+.link:hover {
+	transform: scale(1.1);
+	transition: all 1s;
+}
+
+
+
+
+
+@media all and (max-width: 1300px) { 
+
+.tarjeta {
+	width: 50%;
+	padding: 60px;
+	margin-top: 12rem;
+}
+
+.img {
+width: 15vw;
+height: 15vw;
+}
+
+.code {
+width: 15vw;
+height: 8vw;
+}
+.titulo {
+	font-size: 4vw;
+	
+}
+
+.subtitulo {
+	font-size: 2.5vw;
+	color: #00000095
+}
+
+.link {
+	color: black;
+	text-decoration-line: none;
+	font-size: 2vw;
+}
+
+.link:hover {
+	transform: scale(1.1);
+	transition: all 1s;
+}
+
+}

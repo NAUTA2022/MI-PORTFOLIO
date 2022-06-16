@@ -1,0 +1,65 @@
+.burguer {
+  position: fixed;
+  z-index: 100;
+}
+.burguer input {
+display: none;
+}
+
+
+.burguer-style {
+  align-items: center;
+  width: 100vw;
+
+  background: rgba(104, 255, 249, 0.1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+
+  color: #000000;
+  font-size: 40px;
+  cursor: pointer;
+}
+.burguer-titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.te {
+  transition: all 1s ease;
+  transition-delay: 4s;
+}
+.te:hover {
+  transform: rotate(270deg);
+  transition: all 0.5s;
+}
+
+.burguer-contenido a{
+color: #35353599;
+text-decoration: none;
+}
+
+.burguer-contenido {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.5s;
+  opacity: 0%;
+  font-size: 1.5rem;
+ 
+}
+
+.burguer input:checked ~ .burguer-contenido {
+  opacity: 100%;
+  height: 10rem;
+  padding: 20px;
+  padding-top: 10px;
+  color: #35353599;
+ 
+}
+
+.burguer-item {
+  background-color: #c0b6cb00;
+  border-radius: 30px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}

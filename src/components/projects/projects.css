@@ -1,0 +1,24 @@
+.about {
+	text-align: center;
+	margin: 5rem;
+	color: white;
+}
+
+.arroww {
+	margin: 2rem;
+	margin-top: 6rem;
+	font-size: 3rem;
+	color: #ffffff90;
+	animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.titulito {
+	font-size: 2rem;
+}
+.texto {
+	margin-top: 5rem;
+	color: #00000090;
+	font-size: 1.5rem;
+}

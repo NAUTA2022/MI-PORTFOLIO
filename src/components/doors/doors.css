@@ -1,0 +1,37 @@
+.uno {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	
+}
+
+
+.img1 {
+	margin: 20px;
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+.img1:hover {
+	transform: perspective(800px) rotate3d(0, 1, 0, -30deg) scale(1.05);
+	transition: all 1s;
+    box-shadow: 20px 0px 30px #A27CFF;
+    cursor: pointer;
+
+}
+
+.img2 {
+	margin: 20px;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+.img2:hover {
+	transform: scale(1.02);
+	transition: all 1s;
+    cursor: pointer;
+
+}
