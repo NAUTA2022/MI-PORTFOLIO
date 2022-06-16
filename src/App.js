@@ -7,6 +7,7 @@ import Acordeon from "./components/acordeon/acordeon";
 import Doors from "./components/doors/doors";
 import Projects from "./components/projects/projects";
 import Form from "./components/form/form";
+import Ending from "./components/ending/ending";
 
 function App() {
   return (
@@ -42,7 +43,13 @@ function App() {
        <Doors/>
        </div>
        
+       <div className="Formulario">
+       <Form/>
+       </div>
 
+       <div className="Final">
+       <Ending/>
+       </div>
 
       </div>
     </div>

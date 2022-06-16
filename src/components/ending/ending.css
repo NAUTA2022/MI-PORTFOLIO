@@ -1,0 +1,55 @@
+.redes {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-items: center;
+	margin-top: 10rem;
+}
+
+.iconos {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+}
+
+.iconos a{
+	color: white;
+	margin: 5px;
+
+}
+
+.i1:hover {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+.i2:hover {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+.i3:hover {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+.i4:hover {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+.i5:hover {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+.i6:hover {
+	transform: scale(1.05);
+	transition: all 1s;
+}
+
+.derechos {
+	margin: 20px;
+	color: #ffffff90;
+}
+.derechos1 {
+   
+}
+.derechos2 {
+   
+}

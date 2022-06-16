@@ -1,12 +1,11 @@
 .about {
 	text-align: center;
-	margin: 10rem;
+	margin: auto;
 	color: white;
 }
 
 .arrow {
-	margin: 6rem;
-	margin-top: 0;
+	margin-top: 6rem;
 	font-size: 3rem;
 	color: #ffffff90;
 	animation: bounce;
@@ -21,4 +20,17 @@
 	margin-top: 5rem;
 	color: #00000090;
 	font-size: 1.5rem;
+}
+
+
+@media all and (max-width: 500px) { 
+
+.tituli {
+	font-size: 1.5rem;
+}
+.T{
+	font-size: 1rem;
+	color: #000000;
+}
+
 }

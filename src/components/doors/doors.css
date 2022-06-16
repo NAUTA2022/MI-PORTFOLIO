@@ -3,6 +3,7 @@
 	justify-content: center;
 	align-items: center;
 	list-style: none;
+	margin-top: 12rem;
 	
 }
 
@@ -39,7 +40,8 @@
 @media all and (max-width: 500px) { 
 
 .uno {
-	flex-direction: column;	
+	flex-direction: column;
+	margin-top: 12rem;	
 }
 .img1 {
 	margin: 10px;
