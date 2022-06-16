@@ -2,13 +2,13 @@
   position: fixed;
   z-index: 100;
 }
+
 .burguer input {
 display: none;
 }
 
 
 .burguer-style {
-  align-items: center;
   width: 100vw;
 
   background: rgba(104, 255, 249, 0.1);
@@ -20,16 +20,19 @@ display: none;
   font-size: 40px;
   cursor: pointer;
 }
+
 .burguer-titulo {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
   padding: 20px;
 }
+
 .te {
   transition: all 1s ease;
   transition-delay: 4s;
 }
+
 .te:hover {
   transform: rotate(270deg);
   transition: all 0.5s;

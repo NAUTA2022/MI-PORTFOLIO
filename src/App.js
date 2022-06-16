@@ -11,16 +11,17 @@ import Form from "./components/form/form";
 function App() {
   return (
     <div className="App">
-      <header className="fondo">
+      
+
+       <div className="burguer">
+       <Burguer/>
+       </div>
+
       
       <div className="navi">
        <Nav/>
        </div>
        
-       <div className="burguer">
-       <Burguer/>
-       </div>
-
        <div className="tarjetita">
        <Target/>
        </div>
@@ -45,7 +46,7 @@ function App() {
        <Form/>
        </div>
 
-      </header>
+      
     </div>
   );
 }

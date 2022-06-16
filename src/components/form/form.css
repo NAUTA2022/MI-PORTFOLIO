@@ -66,6 +66,9 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+.redesx {
+	display: none;
+}
 
 .icons1 {
 	display: flex;
@@ -122,4 +125,46 @@
 .i6:hover {
 	transform: scale(1.05);
 	transition: all 1s;
+}
+
+
+@media all and (max-width: 1300px) { 
+
+.formu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	padding-top: 10rem;
+}
+
+.form {
+	width: 100vw;
+	max-width: 80vw;	
+}
+
+.form__input {
+	font-size: 1.5rem;
+}
+
+.form__cta {
+	font-size: 1.5rem;
+}
+
+.redes {
+	display: none;
+}
+
+.redesx {
+	display: flex;
+	flex-direction: row;
+	margin-top: 12rem;
+}
+
+.redesx a{
+color: white;
+margin-right: 30px;
+font-size: 1.3rem;
+}
+
 }

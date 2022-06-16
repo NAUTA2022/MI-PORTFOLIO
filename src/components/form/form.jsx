@@ -17,7 +17,7 @@ const Form = () => {
     </form>
 
 <div class="redes">
-    <div class="tititulo">
+<div class="tititulo">
 <h1>Social Networks</h1>
 </div>
         <div class="icons1">
@@ -31,7 +31,20 @@ const Form = () => {
         <div class="icons3">
             <a href="#"><h1 class="i5"> <FaLinkedinIn /> </h1></a>
             <a href="#"><h1 class="i6"> <FaFacebook /> </h1></a>
-    </div>
+        </div>
+        </div>
+        <div class="redes2">
+
+                                                                  <div class="redesx">
+                                                                                  <a href="#"><h1 class="i1"> <FaInstagram /> </h1></a>
+                                                                                  <a href="#"><h1 class="i2"> <FaWhatsapp /> </h1></a>
+                                                                              
+                                                                                  <a href="#"><h1 class="i3"> <FaGithub /> </h1></a>
+                                                                                  <a href="#"><h1 class="i4"> <FaAt /> </h1></a>
+                                                                              
+                                                                                  <a href="#"><h1 class="i5"> <FaLinkedinIn /> </h1></a>
+                                                                                  <a href="#"><h1 class="i6"> <FaFacebook /> </h1></a>
+                                                                  </div>
 </div>
 </div>
 		);
